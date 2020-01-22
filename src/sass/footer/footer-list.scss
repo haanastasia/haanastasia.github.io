@@ -1,16 +1,43 @@
 .footer-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px; 
 
     &__item {
-        font-family: Helvetica;
-        font-size: 13.5px;
-        color: $main-color-family;
-        text-decoration: none;
-        margin-bottom: 10px;
+        margin-bottom: 6px;
     }
 
-    &__link {
-        @extend .footer-list__item;
-        margin-bottom: 0px;    
-        padding: 10px;
+    &__link {  
+        font-family: 'Open Sans';
+        font-size: 14px;
+        color: $main-color-family;
+        text-decoration: none;
+        padding: 10px 0px;
+
+        &:hover {
+            color: $primary-color-active;
+        }
     }
 }
+
+.footer-sublist {
+
+    &__item {
+        margin-bottom: 6px;
+    }
+
+    &__link {  
+        font-family: 'Open Sans';
+        font-size: 12px;
+        color: $footer-color;
+        text-decoration: none;
+        padding: 10px 0px;
+
+        &:hover {
+            color: $primary-color-active;
+        }
+    }
+}
+
+
+

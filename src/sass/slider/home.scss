@@ -31,14 +31,11 @@
     }
 
     &__btn {
-        background-color: $primary-color;    
-        margin-bottom: 78px;        
-        position: relative;
-        z-index: 1;
+        background-color: $primary-color-active;    
+        color: #ffffff;
 
         &:hover {
-            background-color: $primary-color-active;
-            color: #ffffff;
+            background-color: $primary-color;
         }
 
         &:hover + .cat-rocket {

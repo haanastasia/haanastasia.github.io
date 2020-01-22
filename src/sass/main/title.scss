@@ -1,13 +1,30 @@
 .title {
-    font-family: $font-stack;
-    font-size: 43px;
-    font-weight: bold;
-    color: $main-color-family;    
-    letter-spacing: 0.1px;
+    font-family: 'Lemon Tuesday';
+    font-size: 60px;
+    color: $second-color;    
     margin-bottom: 37px;
+    position: relative;
 
     &--invert {
-        color: invert($main-color-family);
+        color: invert($second-color);
+    }
+
+    &:before {
+        content: "";
+        background-image: url(../../assets/title.png);
+        width: 120px;
+        height: 60px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-left: -140px;
+    }
+
+    &:after {
+        @extend .title:before;
+        margin-left: 20px;
+        transform: scale(-1, 1);
     }
 }
 
