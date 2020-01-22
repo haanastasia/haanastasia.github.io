@@ -32,6 +32,28 @@
     &__navbar-collapse {
         @extend %animation;
     }
+
+    &__phone {
+        color: #010101;
+        font-weight: bold;
+        font-size: 18px;
+        text-decoration: none;
+        line-height: 1;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__time {
+        color: #010101;
+        font-size: 10px;
+        line-height: 1;
+    }
+
+    &__middle {
+        border-top: 1px solid #f2f2f2;
+    }
     
 }
 

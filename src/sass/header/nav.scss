@@ -1,10 +1,8 @@
 .nav {
 
     &__item {
-        margin-right: 33px;
 
         &:last-child {
-            margin-right: 0px;
         }
     }
 
@@ -21,14 +19,15 @@
         font-size: 14px;
         font-weight: bold;
         color: #000000;   
-        padding: 10px 0px 10px;
+        padding: 15px 30px;
 
         &--active {
             color: $primary-color;
         }
 
         &:hover {
-            color: $primary-color;   
+            color: $main-color-family;   
+            background-color: $primary-color;
             text-decoration: none;  
         }
     }

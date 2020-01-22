@@ -9,79 +9,101 @@
 
 <body>
     <header class="header">
-        <div class="content container">
-            <div class="row">
-                <div class="col-md-5 col-lg-6">
-                    <div class="header__logo">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                </div>
-                <div class="col-md-7 col-lg-6 d-flex flex-row justify-content-end align-items-center">
-                    <div>
-                        <a href="tel:+78003332222">+7 (800) 333 2 222</a>
-                        <div class="header__time">Работаем с 11.00 до 23.00</div>
-                    </div>
-                    <div class="btn btn--style-1">Обратный звонок</div>
-                </div>
-                <div class="col-sm-12">
-                    <nav class="header__nav nav nav--white navbar navbar-expand-md">
-                        <button class="header__navbar-toggler navbar-toggler collapsed" type="button"
-                            data-toggle="collapse" data-target="#topmenu" aria-controls="topmenu" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <i class="fa fa-bars" aria-hidden="true"></i>
-                            <i class="fa fa-times" aria-hidden="true"></i>
-                        </button>
-                        <div class="header__navbar-collapse collapse navbar-collapse" id="topmenu">
-                            <ul class="nav__list">
-                                <li class="nav__item">
-                                    <a class="nav__link nav__link--active" href="#home">Меню</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#projects">Акции и скидки</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#pricing">Доставка и оплата</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#team">Новости</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#blog">Контакты</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#contact">Кабинет</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#contact">Корзина</a>
-                                </li>
-                            </ul>
+        <div class="header__top">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-md-5 col-lg-6">
+                        <div class="header__logo">
+                            <img src="img/logo.png" alt="">
                         </div>
-                    </nav>
+                    </div>
+                    <div class="col-md-7 col-lg-6 d-flex flex-row justify-content-end align-items-center">
+                        <div>
+                            <a class="header__phone" href="tel:+78003332222">+7 (800) 333 2 222</a>
+                            <div class="header__time">Работаем с 11.00 до 23.00</div>
+                        </div>
+                        <div class="btn btn--style-1">Обратный звонок</div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="header__middle"> 
+            <div class="content container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <nav class="header__nav nav nav--white navbar navbar-expand-md">
+                            <button class="header__navbar-toggler navbar-toggler collapsed" type="button"
+                                data-toggle="collapse" data-target="#topmenu" aria-controls="topmenu" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                            <div class="header__navbar-collapse collapse navbar-collapse" id="topmenu">
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a class="nav__link nav__link--active" href="#home">Меню</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link" href="#projects">Акции и скидки</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link" href="#pricing">Доставка и оплата</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link" href="#team">Новости</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link" href="#blog">Контакты</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link" href="#contact">
+                                            <img src="img/user.png">
+                                            Кабинет</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link" href="#contact">Корзина</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div> 
     </header>
     <main>
-        <section class="home" id="home">
+        <section class="home">
             <div class="home__slider slider home-slider" style="background-image: url(img/slide1.jpg);">
                 <div class="home-slider__item">
                     <div class="content container">
+                        <div class="home-slider__discount">скидка 15%</div>
                         <h3 class="home-slider__title">Счастливые часы</h3>
                         <p class="home-slider__text">с 11:00 до 16:00 в будние дни</p>
-                        <button class="btn home-slider__btn">Подробнее</button>
+                        <button class="btn btn--big home-slider__btn">Подробнее</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="main">
+        <section class="set">
             <h1 class="title center">Сеты</h1>
             <div class="content container">
 
              
             </div>
         </section>
-        <section>
+        <section class="about">
             <h2 class="title center">О компании</h2>
+            <div>Заказ и доставка роллов, пиццы и WOK(Вок) в городе Курск</div>
+            <div>
+                <p>Суши МИЮШИ открылись в октябре 2012г. и уже завоевали успех у тех, кто ценит японскую кухню и качественное приготовление блюд.</p>
+                <p>С 2013 года мы осуществляем не только доставку на дом, теперь для вас открыт наш уютный небольшой зал. Придя сюда, вы сможете плотно пообедать, насладиться прекрасными напитками, посидеть с друзьями или обзавестись новыми знакомствами.</p>
+                <p>Открывая зал, Мы преследовали цель предоставить своим посетителям максимум удобства и комфорта, поэтому, придя сюда в первый раз, вы почувствуете себя как рыба в воде, окунувшись в домашнюю и теплую обстановку!</p>
+                <p>Особое внимание мы уделяем организации доставки суши и других блюд, которая осуществляется только по г. Курске. Четкая и слаженная работа курьеров позволяет максимально сократить время от приготовления блюда до его попадания на стол заказчику. Как правило, оно составляет от 20 до 60 минут в зависимости от местонахождения клиента. Операторы службы доставки всегда осведомлены обо всех изменениях времени доставки и предупреждают клиентов заранее, а при возможных серьезных задержках в связи с дорожной ситуацией предложат Вам альтернативу. Мы беремся только за ту работу, которую можем выполнить в срок.</p>
+                <p>В меню суши МИЮШИ представлено все многообразие японской кухни. Классические суши, и роллы приготовлены в соответствии с традиционными рецептами. Для любителей нежных и тающих во рту блюд предлагаются роллы с мясом краба, а также для больших любителей копченого угря потрясающий ролл Дракон. Для желающих пробовать что-то новое и необычное – острые ГУНКАНЫ и новинка нашего меню - ИНАРИ, широкий выбор горячих роллов. Большим компаниям будет удобно заказать суши и роллы, объединенные в сеты, включающие сразу несколько видов каждого из этих блюд. Кроме того, меню суши МИЮШИ не ограничено только японской кухней, здесь всегда можно заказать горячие и холодные блюда ЛАПША или РИС WOK с различными мясными и рыбными наполнителями, салаты, горячие закуски и различные напитки.</p>
+                <p>Оформив у нас заказ суши на дом, клиент может выбрать удобный ему способ оплаты: наличными при получении заказа или банковской картой VISA, MasterCard при заполнении специальной формы заказа на сайте или на дому через переносной терминал (заранее сообщив оператору о форме оплаты).</p>
+                <p>Информацию по стоимости доставки и минимальной суммы заказа в отдаленные районы г. Мытищ можно уточнить у оператора по телефону.</p>
+            </div>
+            <img class="about__photo" src="img/photo1.jpg">
         </section>
     </main>
     <footer class="footer">

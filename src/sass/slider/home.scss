@@ -42,6 +42,23 @@
             opacity: 1;
         }
     } 
+
+    &__discount {
+        color: white;
+        font-weight: bold;
+        font-size: 28.78px;
+        background: rgb(183,31,36);
+        background: linear-gradient(0deg, rgba(183,31,36,1) 0%, rgba(223,32,36,1) 100%);
+        border-radius: 50%;
+        width: 141px;
+        height: 141px;
+        text-align: center;
+        line-height: 1.2;
+        @include flex(row, wrap, center, center, center);
+        position: absolute;
+        top: 20%;
+        left: 52%;
+    }
 }
 
 @media (max-width: $md)  {
