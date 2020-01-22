@@ -11,20 +11,17 @@
     &__list {
         list-style: none;	
         @include flex(row, wrap, flex-start, flex-start, flex-start); 
-        max-width: 570px;    
         margin-bottom: 0px;
-        margin-top: -2px;
     }
 
     &__link {
         display: inline-block;
         text-transform: uppercase;
-        font-family: Montserrat;
-        font-size: 10.5px;
+        font-family: $font-stack;
+        font-size: 14px;
         font-weight: bold;
-        color: #ffffff;   
+        color: #000000;   
         padding: 10px 0px 10px;
-        @extend %animation;
 
         &--active {
             color: $primary-color;
@@ -33,7 +30,6 @@
         &:hover {
             color: $primary-color;   
             text-decoration: none;  
-            @extend %scale;
         }
     }
 }

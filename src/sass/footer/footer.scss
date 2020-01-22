@@ -1,12 +1,11 @@
 .footer {
     padding: 78px 0px 122px;
+    background: #1a2d34;
 
     &__title {
         font-family: $font-stack;
-        font-weight: bold;
         color: $main-color-family;
-        text-transform: uppercase;    
-        font-size: 10px;
+        font-size: 11.05pt;
         margin-bottom: 20px;
         letter-spacing: -0.2px;
     }
