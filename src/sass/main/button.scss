@@ -33,6 +33,18 @@
     &--mini {
         padding: 8px 29px 8px 29px;
     }
+
+    &--cart {
+        text-align: left;
+        @include flex(row, wrap, space-between, center, center);
+
+        &:after {
+            content: url(../../assets/cart.svg);
+            width: 22px;
+            height: 20px;
+            display: inline-block;
+        }
+    }
 }
 
 @media (max-width: $sm)  {

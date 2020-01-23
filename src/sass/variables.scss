@@ -17,6 +17,11 @@ $lg:                     992px;
 	align-content: $align-content;
 }
 
+@mixin gradient($color1, $color2) {
+    background: $color1;
+    background: linear-gradient(0deg, $color1 0%, $color2 100%);
+}
+
 @mixin rotate($var) {
 	transform: rotate($var);
 }

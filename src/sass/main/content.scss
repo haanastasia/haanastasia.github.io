@@ -10,6 +10,7 @@ body {
 }
 
 a {
+    @extend %animation;
     
     &:hover {
         color: initial;

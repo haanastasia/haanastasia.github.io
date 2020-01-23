@@ -9,4 +9,26 @@
     &__currency {
         vertical-align: super;
     }
+
+    &__tag {
+        width: 54px;
+        height: 54px;
+        position: absolute;
+        top: 14px;
+        right: 28px;
+        color: $main-color-family;
+        font-family: 'Roboto Slab', serif;
+        font-size: 16px;
+        box-shadow: 0px 6px 16px -4px rgba(0, 0, 0, 1);
+        border-radius: 50%;
+        @include flex(row, wrap, center, center, center);
+        
+        &--hit {
+            @include gradient(rgba(212,69,53,1), rgba(247,91,73,1));
+        }
+
+        &--veg {
+            @include gradient(#1c6d00, #57a406);
+        }
+    }
 }
