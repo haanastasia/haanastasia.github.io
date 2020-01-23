@@ -13,14 +13,20 @@
     &--style-1 {
         color: $primary-color;
         border: 1px solid $primary-color;
+
+        &:hover {
+            background-color: $primary-color;
+            color: $main-color-family;
+        }
     }
 
     &--style-2 {
         background-color: $primary-color-active;    
-        color: #ffffff;
+        color: $main-color-family;
 
         &:hover {
             background-color: $primary-color;
+            color: $main-color-family;
         }
     }
 

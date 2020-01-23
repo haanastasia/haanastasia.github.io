@@ -33,6 +33,11 @@
         @extend %animation;
     }
 
+    &__contact {
+        min-height: 41px;
+        margin-right: 25px;
+    }
+
     &__phone {
         color: #010101;
         font-weight: bold;
@@ -48,11 +53,14 @@
     &__time {
         color: #010101;
         font-size: 10px;
-        line-height: 1;
     }
 
     &__middle {
         border-top: 1px solid #f2f2f2;
+    }
+
+    &__top {
+        padding: 0px 0px 20px;
     }
     
 }
