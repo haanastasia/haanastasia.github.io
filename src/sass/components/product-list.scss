@@ -1,0 +1,40 @@
+.product-list {
+
+    &__item {
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 26px -5px rgba(0,0,0,.17);
+        overflow: hidden;
+    }
+
+    &__title {
+        font-family: $font-stack;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000;
+        margin: 0px 0px 10px;
+    }
+
+    &__info {
+        padding: 20px 30px 30px;
+    }
+
+    &__photo {
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__property {
+        font-size: 12px;
+        color: #000;
+        font-weight: 100;
+        margin: 0px 0px 20px;
+    }
+
+    &__btn {
+        width: 100%;
+    }
+ 
+}

@@ -15,6 +15,15 @@
         border: 1px solid $primary-color;
     }
 
+    &--style-2 {
+        background-color: $primary-color-active;    
+        color: #ffffff;
+
+        &:hover {
+            background-color: $primary-color;
+        }
+    }
+
     &--big {
         font-size: 16px;
         padding: 14px 50px;

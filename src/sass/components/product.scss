@@ -1,0 +1,12 @@
+.product {
+
+    &__price {
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    &__currency {
+        vertical-align: super;
+    }
+}

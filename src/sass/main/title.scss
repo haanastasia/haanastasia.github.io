@@ -28,6 +28,13 @@
     }
 }
 
+.subtitle {
+    font-family: $font-stack;
+    font-weight: bold;
+    color: $second-color;
+    font-size: 24px;
+}
+
 @media (max-width: $lg)  {
 
     .title {

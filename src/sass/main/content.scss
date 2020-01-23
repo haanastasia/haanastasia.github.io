@@ -17,6 +17,16 @@ a {
     }
 }
 
+.text {
+    color: #4c4c4c;
+    font-family: $font-stack;
+    font-size: 14px;
+
+    p {
+        @extend .text;
+    }
+}
+
 .content {
     max-width: 1170px;    
     margin: 0 auto;
