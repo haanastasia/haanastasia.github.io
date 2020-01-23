@@ -8,3 +8,5 @@ function importAll(r) {
 }
 
 const images = importAll(require.context('../userfiles/', true, /\.(png|jpe?g|svg)$/));
+
+import './catalog/quantity';

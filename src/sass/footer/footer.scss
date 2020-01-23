@@ -1,7 +1,11 @@
 .footer {
-    padding: 78px 0px 122px;
+    padding: 50px 0px 20px;
     background: #1a2d34;
     color: $footer-color;
+
+    &__col {
+        margin-bottom: 50px;
+    }
 
     &__title {
         font-family: $font-stack;
@@ -12,19 +16,6 @@
 
     &__list {
         list-style: none;
-
-        &--col {
-            @include flex(row, wrap, space-around, flex-start, stretch);
-        }
- 
-        &--row {
-            @include flex(column, nowrap, flex-start, stretch, stretch);
-        }
-    }
-
-    &__social {
-        width: 113px;
-        margin: 0 auto;    
     }
 
     &__link {
