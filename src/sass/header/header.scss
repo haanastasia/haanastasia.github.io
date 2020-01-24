@@ -30,18 +30,19 @@
     }
 
     &__navbar-collapse {
+        justify-content: space-between;
         @extend %animation;
     }
 
     &__contact {
         min-height: 41px;
-        margin-right: 25px;
+        margin-right: 28px;
     }
 
     &__phone {
         color: #010101;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 17.2px;
         text-decoration: none;
         line-height: 1;
 
@@ -52,7 +53,9 @@
 
     &__time {
         color: #010101;
-        font-size: 10px;
+        font-size: 10.2px;
+        margin-left: 2px;
+        margin-top: 1px;
     }
 
     &__middle {

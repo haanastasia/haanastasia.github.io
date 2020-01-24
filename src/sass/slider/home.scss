@@ -1,5 +1,5 @@
 .home-slider {
-    height: 692.6px;
+    height: 675px;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #24415f;    
@@ -8,7 +8,6 @@
     &__item {
         height: 100%;
         overflow: hidden;
-        @include flex(row, wrap, flex-start, center, center);
     }
  
     &__title {
@@ -16,24 +15,25 @@
         font-size: 110px;
         max-width: 472px;
         color: $primary-color;
-        margin-bottom: 29px;
-        letter-spacing: -0.9px;   
-        line-height: 1;
+        margin-bottom: 51px;
+        letter-spacing: -1.6px;
+        line-height: 0.899;
+        margin-top: 131px;
     }
 
     &__text { 
-        font-size: 26.38px;
+        font-size: 25.5px;
         max-width: 418px; 
         color: #ffffff;    
         font-family: 'Open Sans';
         font-style: italic;
-        margin: 0px 0 36px;
+        margin: 0 12px 36px;
     }
 
     &__discount {
         color: white;
         font-weight: bold;
-        font-size: 28.78px;
+        font-size: 30px;
         background: rgb(183,31,36);
         background: linear-gradient(0deg, rgba(183,31,36,1) 0%, rgba(223,32,36,1) 100%);
         border-radius: 50%;
@@ -43,8 +43,13 @@
         line-height: 1.2;
         @include flex(row, wrap, center, center, center);
         position: absolute;
-        top: 20%;
-        left: 52%;
+        top: -16px;
+        left: 598px;
+    }
+
+    &__btn {
+        margin-top: 18px;
+        margin-left: 9px;
     }
 }
 

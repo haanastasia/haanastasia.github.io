@@ -1,8 +1,8 @@
 .title {
     font-family: 'Lemon Tuesday';
-    font-size: 60px;
+    font-size: 58px;
     color: $second-color;    
-    margin-bottom: 37px;
+    margin-bottom: 40px;
     position: relative;
 
     &--invert {
@@ -18,12 +18,13 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        margin-left: -140px;
+        margin-left: -144px;
+        margin-top: 2px;
     }
 
     &:after {
         @extend .title:before;
-        margin-left: 20px;
+        margin-left: 26px;
         transform: scale(-1, 1);
     }
 }

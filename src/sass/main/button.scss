@@ -1,13 +1,13 @@
 .btn {
     font-family: $font-stack;  
     border-radius: 5px;    
-    padding: 10px 20px;
+    padding: 9px 20px 8px;
     display: inline-block;
     text-transform: uppercase;  
     font-size: 13px;
     cursor: pointer;
-    border:: 0px;
     text-decoration: none;
+    margin-bottom: 8px;
     @extend %animation;
 
     &--style-1 {
@@ -41,6 +41,8 @@
     }
 
     &--cart {
+        padding: 9px 29px 10px;
+        font-size: 14px;
         text-align: left;
         @include flex(row, wrap, space-between, center, center);
 

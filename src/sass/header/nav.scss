@@ -2,13 +2,18 @@
 
     &__item {
 
-        &:last-child {
+        &--personal {
+
+            .nav__link {
+                padding: 13px 27px;
+                margin-right: 0px;
+            }
         }
     }
 
     &__list {
         list-style: none;	
-        @include flex(row, wrap, flex-start, flex-start, flex-start); 
+        @include flex(row, wrap, space-between, stretch, stretch); 
         margin-bottom: 0px;
     }
 
@@ -19,7 +24,9 @@
         font-size: 14px;
         font-weight: bold;
         color: #000000;   
-        padding: 15px 30px;
+        padding: 13px 31px;
+        margin-right: 2px;
+        height: 100%;
 
         &--active {
             color: $primary-color;

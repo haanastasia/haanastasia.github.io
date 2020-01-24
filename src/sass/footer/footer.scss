@@ -1,17 +1,17 @@
 .footer {
-    padding: 50px 0px 20px;
+    padding: 67.3px 0 20px;
     background: #1a2d34;
     color: $footer-color;
 
     &__col {
-        margin-bottom: 50px;
+        margin-bottom: 47px;
     }
 
     &__title {
         font-family: $font-stack;
         color: $main-color-family;
         font-size: 14px;
-        margin-bottom: 15px;
+        margin-bottom: 12px;
     }
 
     &__list {
@@ -21,10 +21,50 @@
     &__link {
         color: $footer-color;
         text-decoration: underline;
+        font-size: 12.8px;
 
         &:hover {
             color: $primary-color-active;
             text-decoration: none;
+        }
+    }
+
+    &__item {
+
+        &--1 {
+            margin-left: -2px;
+            max-width: 21%;
+            flex: 0 0 21%;
+        }
+
+        &--2 {
+            margin-left: 2px;
+            max-width: 20%;
+            flex: 0 0 20%;
+        }
+
+        &--3 {
+            margin-left: 4px;
+            max-width: 14%;
+            flex: 0 0 14%;
+        }
+
+        &--4 {
+            margin-left: 6px;
+        }
+
+        &--5 {
+            margin-left: 6px;
+            max-width: 20%;
+            flex: 0 0 20%;
+        }
+
+        &--6 {
+            margin-left: -3px;
+        }
+
+        &--7 {
+            margin-right: -1px;
         }
     }
 }

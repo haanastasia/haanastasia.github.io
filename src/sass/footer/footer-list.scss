@@ -4,7 +4,7 @@
     margin: 0px; 
 
     &__item {
-        margin-bottom: 6px;
+        margin-bottom: 3px;
     }
 
     &__link {  
@@ -23,7 +23,7 @@
 .footer-sublist {
 
     &__item {
-        margin-bottom: 6px;
+        margin-bottom: 2px;
     }
 
     &__link {  
@@ -31,7 +31,8 @@
         font-size: 12px;
         color: $footer-color;
         text-decoration: none;
-        padding: 10px 0px;
+        padding: 10px 0px; 
+        line-height: 1.9;
 
         &:hover {
             color: $primary-color-active;
