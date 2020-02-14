@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Miushi</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 </head>
 
 <body>
@@ -78,16 +79,34 @@
         </div> 
     </header>
     <main>
+ 
+
         <section class="home">
-            <div class="home__slider slider home-slider" style="background-image: url(img/slide1.jpg);">
-                <div class="home-slider__item">
-                    <div class="content container">
-                        <div class="home-slider__discount">скидка 15%</div>
-                        <h3 class="home-slider__title">Счастливые часы</h3>
-                        <p class="home-slider__text">с 11:00 до 16:00 в будние дни</p>
-                        <button class="btn btn--big btn--style-2 home-slider__btn">Подробнее</button>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="home__slider slider home-slider" style="background-image: url(img/slide1.jpg);">
+                            <div class="home-slider__item">
+                                <div class="content container">
+                                    <div class="home-slider__discount">скидка 15%</div>
+                                    <h3 class="home-slider__title">Счастливые часы</h3>
+                                    <p class="home-slider__text">с 11:00 до 16:00 в будние дни</p>
+                                    <button class="btn btn--big btn--style-2 home-slider__btn">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide2.jpg" class="home-slider__photo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide3.jpg" class="home-slider__photo">
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </section>
         <section class="set">

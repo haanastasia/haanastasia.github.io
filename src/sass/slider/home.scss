@@ -4,6 +4,13 @@
     background-repeat: no-repeat;
     background-color: #24415f;    
     background-position: top center;
+
+    &__photo {
+        width: 100%;
+        object-fit: cover; 
+        object-position: center;   
+        height: 675px;
+    }
     
     &__item {
         height: 100%;
