@@ -9,6 +9,10 @@ body {
     margin: 0 auto;    
 }
 
+main {
+    margin-top: 150px;
+}
+
 a {
     @extend %animation;
     

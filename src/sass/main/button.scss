@@ -53,6 +53,11 @@
             display: inline-block;
         }
     }
+
+    &--cart-active {
+        background-color: $primary-color;
+        color: $main-color-family;
+    }
 }
 
 @media (max-width: $sm)  {

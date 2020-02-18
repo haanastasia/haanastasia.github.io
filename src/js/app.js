@@ -10,7 +10,7 @@ function importAll(r) {
 const images = importAll(require.context('../userfiles/', true, /\.(png|jpe?g|svg)$/));
 
 import './catalog/quantity';
-
+import './catalog/cart';
 
 // Import Swiper and modules
 import { Swiper, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper/js/swiper.esm.js';
