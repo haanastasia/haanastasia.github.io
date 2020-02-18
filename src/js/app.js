@@ -34,3 +34,9 @@ var swiper = new Swiper('.swiper-container', {
     type: 'bullets',
   },
 });
+
+
+var sets = new Swiper('#sets', {
+  slidesPerView: 4,
+  spaceBetween: 0
+});
