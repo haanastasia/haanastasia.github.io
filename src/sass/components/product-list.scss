@@ -48,5 +48,57 @@
     &__price {
         margin-left: 5px;
     }
+
+    &__swiper-pagination {
+        position: relative;
+        bottom: initial;
+        margin: 0px 35px;
+
+        span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background-color: $primary-color;
+        }
+
+        span.swiper-pagination-bullet {
+            margin: 0px 7px !important;
+            width: 7px;
+            height: 7px;
+        }
+    }
+
+    &__swiper-button-next {
+        top: initial;
+        bottom: 0px;
+        color: $second-color;
+        position: relative;
+        margin-top: 0px;
+
+        &:after {
+            font-size: 20px;
+        }
+    }
+
+    &__swiper-button-prev {
+        top: initial;
+        bottom: 0px;
+        color: $second-color;
+        position: relative;
+        margin-top: 0px;
+
+        &:after {
+            font-size: 20px;
+        }
+    }
+
+    &__controls {
+        @include flex(row, wrap, center, center, center);
+    }
+
+    &__carousel {
+        margin-bottom: 20px;
+         
+        &.rol {
+            padding: 15px 0 30px;
+        }
+    }
  
 }

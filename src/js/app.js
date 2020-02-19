@@ -38,5 +38,43 @@ var swiper = new Swiper('.swiper-container', {
 
 var sets = new Swiper('#sets', {
   slidesPerView: 4,
-  spaceBetween: 0
+  spaceBetween: 0,
+  slidesPerGroup: 4,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },  
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+});
+
+
+var rols = new Swiper('#rols', {
+  slidesPerView: 4,
+  spaceBetween: 0,
+  slidesPerGroup: 4,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },  
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+});
+
+var pizza = new Swiper('#pizza', {
+  slidesPerView: 4,
+  spaceBetween: 0,
+  slidesPerGroup: 4,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },  
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
 });
