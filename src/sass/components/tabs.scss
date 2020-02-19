@@ -25,5 +25,14 @@
     }
 }
 
+.tab-content>.tab-pane {
+    display: block;
+    width: 100%;
+    height: 0px;
+}
 
- 
+.tab-content>.tab-pane.active {
+    display: block;
+    width: 100%;
+    height: initial;
+}

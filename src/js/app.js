@@ -21,7 +21,9 @@ Swiper.use([Navigation, Autoplay, Pagination, Scrollbar]);
 // Now you can use Swiper
 var swiper = new Swiper('.swiper-container', {
   speed: 200,
- 
+  autoplay: {
+    delay: 2000,
+  },
   loop: true,
   navigation: {
     nextEl: '.swiper-button-next',
