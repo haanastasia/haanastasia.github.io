@@ -1,0 +1,28 @@
+.tabs {
+
+    &-home {
+        background: #f9f9f9;
+        padding: 50px 0px 40px;
+
+        .nav-tabs {
+            border-bottom: 0px;
+            margin-bottom: 30px;
+
+            .nav-link {
+                font-family: 'Open Sans';
+                border: 0px;
+                background: none;
+                color: $second-color;    
+                font-size: 14px;
+                padding: 10px 16px;
+
+                &.active {
+                    color: $primary-color-active;
+                }
+            }
+        }
+    }
+}
+
+
+ 

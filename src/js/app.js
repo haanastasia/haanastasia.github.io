@@ -38,7 +38,7 @@ var swiper = new Swiper('.swiper-container', {
 
 var sets = new Swiper('#sets', {
   slidesPerView: 4,
-  spaceBetween: 0,
+  spaceBetween: 30,
   slidesPerGroup: 4,
   navigation: {
     nextEl: '.swiper-button-next',
@@ -53,7 +53,7 @@ var sets = new Swiper('#sets', {
 
 var rols = new Swiper('#rols', {
   slidesPerView: 4,
-  spaceBetween: 0,
+  spaceBetween: 30,
   slidesPerGroup: 4,
   navigation: {
     nextEl: '.swiper-button-next',
@@ -67,7 +67,35 @@ var rols = new Swiper('#rols', {
 
 var pizza = new Swiper('#pizza', {
   slidesPerView: 4,
-  spaceBetween: 0,
+  spaceBetween: 30,
+  slidesPerGroup: 4,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },  
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+});
+
+var novinki = new Swiper('#novinki-slider', {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  slidesPerGroup: 4,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },  
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+});
+
+var akcii = new Swiper('#akcii-slider', {
+  slidesPerView: 4,
+  spaceBetween: 30,
   slidesPerGroup: 4,
   navigation: {
     nextEl: '.swiper-button-next',
