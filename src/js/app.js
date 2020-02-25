@@ -38,9 +38,10 @@ var swiper = new Swiper('.swiper-container', {
 
 
 var sets = new Swiper('#sets', {
-  slidesPerView: 4,
+  slidesPerView: 1.3,
   spaceBetween: 30,
-  slidesPerGroup: 4,
+  slidesPerGroup: 1,
+  centeredSlides: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -48,14 +49,29 @@ var sets = new Swiper('#sets', {
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
+  },
+  breakpoints: {
+    550: {
+      slidesPerView: 1.6,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      centeredSlides: true
+    },
+    900: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      slidesPerGroup: 4,
+      centeredSlides: false
+    }
   },
 });
 
 
 var rols = new Swiper('#rols', {
-  slidesPerView: 4,
+  slidesPerView: 1.3,
   spaceBetween: 30,
-  slidesPerGroup: 4,
+  slidesPerGroup: 1,
+  centeredSlides: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -63,13 +79,28 @@ var rols = new Swiper('#rols', {
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
+  },
+  breakpoints: {
+    550: {
+      slidesPerView: 1.6,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      centeredSlides: true
+    },
+    900: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      slidesPerGroup: 4,
+      centeredSlides: false
+    }
   },
 });
 
 var pizza = new Swiper('#pizza', {
-  slidesPerView: 4,
+  slidesPerView: 1.3,
   spaceBetween: 30,
-  slidesPerGroup: 4,
+  slidesPerGroup: 1,
+  centeredSlides: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -77,13 +108,28 @@ var pizza = new Swiper('#pizza', {
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
+  },
+  breakpoints: {
+    550: {
+      slidesPerView: 1.6,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      centeredSlides: true
+    },
+    900: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      slidesPerGroup: 4,
+      centeredSlides: false
+    }
   },
 });
 
 var novinki = new Swiper('#novinki-slider', {
-  slidesPerView: 4,
+  slidesPerView: 1.3,
   spaceBetween: 30,
-  slidesPerGroup: 4,
+  slidesPerGroup: 1,
+  centeredSlides: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -92,12 +138,27 @@ var novinki = new Swiper('#novinki-slider', {
     el: '.swiper-pagination',
     type: 'bullets',
   },
+  breakpoints: {
+    550: {
+      slidesPerView: 1.6,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      centeredSlides: true
+    },
+    900: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      slidesPerGroup: 4,
+      centeredSlides: false
+    }
+  },
 });
 
 var akcii = new Swiper('#akcii-slider', {
-  slidesPerView: 4,
+  slidesPerView: 1.3,
   spaceBetween: 30,
-  slidesPerGroup: 4,
+  slidesPerGroup: 1,
+  centeredSlides: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -105,6 +166,20 @@ var akcii = new Swiper('#akcii-slider', {
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
+  },
+  breakpoints: {
+    550: {
+      slidesPerView: 1.6,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      centeredSlides: true
+    },
+    900: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      slidesPerGroup: 4,
+      centeredSlides: false
+    }
   },
 });
  

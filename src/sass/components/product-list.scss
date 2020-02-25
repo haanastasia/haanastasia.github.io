@@ -108,3 +108,19 @@
     padding: 0px;
     flex: none;
 }
+
+
+@media (max-width: $md)  {
+
+    .product-list {
+
+        &__controls {
+            display: none;
+        }
+    }
+
+    .swiper-slide-prev, 
+    .swiper-slide-next {
+        opacity: 0.4;
+    }
+}
