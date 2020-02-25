@@ -26,3 +26,19 @@
         }
     }
 }
+
+
+@media (max-width: $md)  {
+
+    .about {
+    
+        &__title:after {
+            display: none;
+        }
+
+        &__title:before {
+            display: none;
+        }
+    }
+
+}

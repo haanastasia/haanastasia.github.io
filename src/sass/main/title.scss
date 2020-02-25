@@ -36,18 +36,29 @@
     font-size: 24px;
 }
 
-@media (max-width: $lg)  {
-
-    .title {
-        font-size: 37px;
-        margin-bottom: 30px;
-    }
-}
-
 @media (max-width: $md)  {
 
     .title {
-        font-size: 27px;
+        font-size: 44px;
         margin-bottom: 15px;
+    }
+
+    .title:before {
+        width: 74px;
+        height: 27px;
+        margin-top: 9px;
+        margin-left: -82px;
+    }
+
+    .title:after {
+        width: 74px;
+        height: 27px;
+        margin-top: 9px;
+        margin-left: 15px;
+        transform: scale(-1, 1);
+    }
+
+    .subtitle {
+        font-size: 20px;
     }
 }

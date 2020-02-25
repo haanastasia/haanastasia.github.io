@@ -39,3 +39,54 @@
         }
     }
 }
+
+
+@media (max-width: $md)  {
+
+    .nav {
+
+        &__item {
+    
+            &--personal {
+    
+                .nav__link {
+                    font-size: 0px;
+                    padding: 5px;
+                }
+            }
+        }
+
+        &__list {
+
+            &--mobile {
+                display: block;
+                padding: 70px 0px 0px;
+                transition: all 350ms ease-in-out;
+                opacity: 0;
+                position: fixed;
+                top: 0px;
+                height: 100vh;
+                left: -80%;
+                width: 80%;
+                background: rgba(0, 0, 0, 0.84);
+                box-shadow: 0 0 15px 0px rgba(0,0,0,0.4);
+
+                .nav__item {
+                    width: 100%;
+                }
+
+                .nav__link {
+                    color: $main-color-family;
+                }
+            }
+
+            &.personal {
+                position: fixed;
+                z-index: -1;
+                right: 0;
+                top: 0px;
+            }
+        }
+    }
+
+}
