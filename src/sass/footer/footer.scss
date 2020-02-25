@@ -75,7 +75,10 @@
         padding: 40px 0px;    
 
         &__title {
-            margin-bottom: 15px;
+            background: #1a2d34;
+            margin: 0px;
+            padding: 15px;
+            border-bottom: 2px solid #20353d;
         }
 
         &__item {
@@ -83,7 +86,8 @@
             flex: 100%;
             max-width: 100%;
             margin: 0px;
-            margin-bottom: 20px;
+            padding: 0px;
+            background: #20353d;
 
             &:last-child {
                 margin-bottom: 0px;
@@ -102,6 +106,22 @@
 
             .footer-list {
                 display: block;
+            }
+        }
+
+        &__col {
+            margin-bottom: 0px;
+        }
+
+        &__col:last-child {
+            @include flex(column-reverse, wrap, center, center, center); 
+            text-align: center;
+            margin-bottom: 47px;
+            background: #1a2d34;
+            padding-top: 20px;
+
+            .footer__item {
+                background: #1a2d34;
             }
         }
     }

@@ -50,3 +50,11 @@ a {
 .left {
     text-align: left;
 }
+
+
+@media (max-width: $md)  {
+
+    main {
+        margin-top: 70px;
+    }
+}

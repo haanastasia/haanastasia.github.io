@@ -2,6 +2,7 @@ var btn = document.querySelectorAll('.footer__title');
  
 var toggleMenu = function (btn) {
     btn.addEventListener('click', function () {
+        this.classList.toggle('active');
         this.nextElementSibling.classList.toggle('active');
     });
 };

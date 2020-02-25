@@ -97,21 +97,28 @@
 @media (max-width: $md)  {
 
     .home-slider {
-        height: 100vh;    
-        min-height: 320px;
+        height: 242px;  
+        min-height: 242px;
+
+        &__photo {
+            height: 242px; 
+        }
      
         &__title {
-            font-size: 25px;
+            font-size: 49px;
             margin-bottom: 10px;
+            margin-top: 20px;
         }
     
         &__text { 
-            font-size: 14px;
+            font-size: 12px;
             margin: 0px 0 20px;
         }
     
         &__btn {
-            margin-bottom: 0px;    
+            display: none !important;
         } 
     }
 }
+
+ 

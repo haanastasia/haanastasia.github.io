@@ -32,3 +32,14 @@
         }
     }
 }
+
+
+@media (max-width: $md)  {
+
+    .social {
+
+        &__col {
+            @include flex(row, wrap, center, center, center);
+        }
+    }
+}
