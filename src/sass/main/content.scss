@@ -55,6 +55,10 @@ a {
 @media (max-width: $md)  {
 
     main {
-        margin-top: 70px;
+        margin-top: 62px;
+    }
+
+    .content {
+        max-width: 100vw;    
     }
 }

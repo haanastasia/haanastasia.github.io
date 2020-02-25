@@ -28,7 +28,7 @@
         color: $primary-color;
         position: fixed;
         left: 35px;
-        top: 30px;
+        top: 14px;
         padding: 10px;
         z-index: 2;
 
@@ -172,9 +172,13 @@
     
     .header {
 
+        &__top {
+            padding: 7px 0px;
+        }
+
         &__navbar-toggler {
             left: 15px;
-            top: 20px;
+            top: 14px;
         }
 
         &__navbar-collapse {
