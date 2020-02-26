@@ -31,6 +31,11 @@
 @media (max-width: $md)  {
 
     .about {
+        padding: 24px 0 47px;
+
+        &__title.title {
+            margin-bottom: 40px;
+        }
     
         &__title:after {
             display: none;
@@ -38,6 +43,10 @@
 
         &__title:before {
             display: none;
+        }
+
+        &__text {
+            margin-right: 0px;
         }
 
         &__photo {

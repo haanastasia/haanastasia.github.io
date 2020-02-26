@@ -13,6 +13,7 @@ import './catalog/quantity';
 import './catalog/cart';
 import './menu/mobile';
 import './menu/footer';
+import './content/more';
 
 // Import Swiper and modules
 import { Swiper, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper/js/swiper.esm.js';
@@ -52,11 +53,17 @@ var sets = new Swiper('#sets', {
     type: 'bullets',
   },
   breakpoints: {
-    550: {
-      slidesPerView: 1.6,
-      spaceBetween: 30,
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 20,
       slidesPerGroup: 1,
       centeredSlides: true
+    },
+    760: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      slidesPerGroup: 1,
+      centeredSlides: false
     },
     900: {
       slidesPerView: 4,
@@ -82,11 +89,17 @@ var rols = new Swiper('#rols', {
     type: 'bullets',
   },
   breakpoints: {
-    550: {
-      slidesPerView: 1.6,
-      spaceBetween: 30,
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 20,
       slidesPerGroup: 1,
       centeredSlides: true
+    },
+    760: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      slidesPerGroup: 1,
+      centeredSlides: false
     },
     900: {
       slidesPerView: 4,
@@ -111,11 +124,17 @@ var pizza = new Swiper('#pizza', {
     type: 'bullets',
   },
   breakpoints: {
-    550: {
-      slidesPerView: 1.6,
-      spaceBetween: 30,
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 20,
       slidesPerGroup: 1,
       centeredSlides: true
+    },
+    760: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      slidesPerGroup: 1,
+      centeredSlides: false
     },
     900: {
       slidesPerView: 4,
@@ -140,11 +159,17 @@ var novinki = new Swiper('#novinki-slider', {
     type: 'bullets',
   },
   breakpoints: {
-    550: {
-      slidesPerView: 1.6,
-      spaceBetween: 30,
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 20,
       slidesPerGroup: 1,
       centeredSlides: true
+    },
+    760: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      slidesPerGroup: 1,
+      centeredSlides: false
     },
     900: {
       slidesPerView: 4,
@@ -169,11 +194,17 @@ var akcii = new Swiper('#akcii-slider', {
     type: 'bullets',
   },
   breakpoints: {
-    550: {
-      slidesPerView: 1.6,
-      spaceBetween: 30,
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 20,
       slidesPerGroup: 1,
       centeredSlides: true
+    },
+    760: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      slidesPerGroup: 1,
+      centeredSlides: false
     },
     900: {
       slidesPerView: 4,

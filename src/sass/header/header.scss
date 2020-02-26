@@ -83,6 +83,10 @@
     .header {
         padding: 0;
 
+        &__top {
+            padding: 7px 0px;
+        }
+
         &__menu {
 
             &.active {
@@ -171,10 +175,6 @@
 @media (max-width: $sm)  {
     
     .header {
-
-        &__top {
-            padding: 7px 0px;
-        }
 
         &__navbar-toggler {
             left: 15px;

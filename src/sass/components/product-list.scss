@@ -121,8 +121,15 @@
         &__info {
             padding: 20px 15px 20px;
         }
-    }
 
+        &__carousel.rol {
+            padding: 15px 0 15px;
+        }
+    }
+}
+
+@media (max-width: $sm) {
+    
     .swiper-slide-prev, 
     .swiper-slide-next {
         opacity: 0.4;

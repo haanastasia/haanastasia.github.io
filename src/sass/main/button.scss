@@ -30,6 +30,17 @@
         }
     }
 
+    &-more {
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fd4f10;
+        font-family: $font-stack;  
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
     &--big {
         font-size: 16px;
         padding: 14px 50px;

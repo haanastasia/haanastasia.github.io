@@ -12,6 +12,10 @@
         color: $main-color-family;
         font-size: 14px;
         margin-bottom: 12px;
+
+        &--mobile {
+            display: none;
+        }
     }
 
     &__list {
@@ -72,13 +76,46 @@
 @media (max-width: $md)  {
 
     .footer {
-        padding: 40px 0px;    
+        padding: 0px 0px 40px;    
+
+        &__link {
+            display: block;
+            margin: 0px 0px 25px;
+        }
 
         &__title {
             background: #1a2d34;
             margin: 0px;
             padding: 15px;
             border-bottom: 2px solid #20353d;
+
+            &:after {
+                content: "\f107";
+                display: inline-block;
+                font: normal normal normal 14px/1 FontAwesome;
+                position: absolute;
+                right: 20px;
+                font-size: 24px;
+                font-weight: 100;
+                top: 13px;
+            }
+
+            &.active:after {
+                content: "\f106";
+            }
+
+            &--mobile {
+                display: block;
+            }
+        }
+
+        &-list__link {
+            font-family: Open Sans;
+            font-size: 12px;
+            color: #6b96a5;
+            text-decoration: none;
+            padding: 10px 0;
+            line-height: 1.9;
         }
 
         &__item {
@@ -117,9 +154,9 @@
         &__col:last-child {
             @include flex(column-reverse, wrap, center, center, center); 
             text-align: center;
-            margin-bottom: 47px;
             background: #1a2d34;
             padding-top: 20px;
+            margin-bottom: 10px;
 
             .footer__item {
                 background: #1a2d34;

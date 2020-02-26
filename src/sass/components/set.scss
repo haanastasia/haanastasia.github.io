@@ -1,3 +1,11 @@
 .set {
     padding: 75px 0px 30px;
 }
+
+
+@media (max-width: $md)  {
+
+    .set {
+        padding: 35px 0 10px;
+    }
+}

@@ -118,12 +118,28 @@
         &__btn {
             display: none !important;
         } 
+
+        &__discount {
+            font-size: 14px;
+            width: 65px;
+            height: 65px;
+            top: 37%;
+            right: 20px;
+            left: inherit;
+        }
+
+        &__item {
+            
+            .content.container {
+                height: 100%;
+            }
+        }
     }
 
     .home {
 
         .swiper-container {
-            padding-bottom: 40px;
+            padding-bottom: 35px;
         }
 
         .swiper-pagination.swiper-pagination-bullets {
@@ -132,6 +148,8 @@
 
         span.swiper-pagination-bullet {
             border: 3px solid #cfcfcf;
+            width: 13px;
+            height: 13px;
         }
     
         .swiper-button-next {
