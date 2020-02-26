@@ -2,6 +2,7 @@ var btn = document.querySelector('.header__navbar-toggler');
 
 btn.addEventListener('click', function () {
     this.nextElementSibling.classList.toggle('active');
+    this.classList.toggle('active');
 });
 
 document.addEventListener('click', function (e) {
