@@ -61,4 +61,18 @@ a {
     .content {
         max-width: 100vw;    
     }
+
+    .text--more {
+
+        p:nth-child(1n+4) {
+            display: none;
+        }
+
+        &.active {
+
+            p:nth-child(1n+4) {
+                display: block;
+            }
+        }
+    }
 }

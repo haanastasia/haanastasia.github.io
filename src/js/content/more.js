@@ -2,9 +2,6 @@ var text = document.querySelectorAll('.text--more');
  
 var moreText = function (text) {
 
-    for (var i = 3; i < text.querySelectorAll('p').length; i++) {
-        text.querySelectorAll('p')[i].style.display = 'none';
-    }
 
     if(text.querySelectorAll('p').length > 3) {
         var btn = document.createElement('div');
@@ -18,15 +15,11 @@ var moreText = function (text) {
         
         if(text.closest(".active")) {
             btn.innerHTML = "Скрыть";
-            var display = 'block';
         }
         else {
             btn.innerHTML = "Показать еще";
-            var display = 'none';
         }
-        for (var i = 3; i < text.querySelectorAll('p').length; i++) {
-            text.querySelectorAll('p')[i].style.display = display;
-        }
+
     });
 };
 

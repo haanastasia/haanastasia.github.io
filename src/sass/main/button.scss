@@ -31,6 +31,7 @@
     }
 
     &-more {
+        display: none;
         font-size: 14px;
         text-transform: uppercase;
         text-align: center;
@@ -68,6 +69,16 @@
     &--cart-active {
         background-color: $primary-color;
         color: $main-color-family;
+    }
+}
+
+@media (max-width: $md)  {
+
+    .btn {
+
+        &-more {
+            display: block;
+        }
     }
 }
 
